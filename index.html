@@ -318,10 +318,69 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
 ::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}
 
 @media(max-width:700px){
-  .stats-grid{grid-template-columns:repeat(3,1fr)}
+  /* HEADER mobile */
+  .app-header{height:auto;padding:8px 14px;flex-wrap:wrap;gap:6px}
+  .app-logo{font-size:17px}
+  .header-right{gap:5px;flex-wrap:wrap}
+  .header-btn{height:30px;padding:0 9px;font-size:12px;gap:4px}
+  .header-btn span{display:none}
+  .day-badge{font-size:11px;padding:3px 8px}
+
+  /* WEEK SELECTOR mobile */
+  .week-selector{padding:6px 12px;gap:6px}
+  .week-btns{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
+  .week-btns::-webkit-scrollbar{display:none}
+  .week-btn{padding:3px 10px;font-size:11px;flex:0 0 auto}
+  .week-phase{max-width:180px;font-size:10px}
+
+  /* WATER BAR mobile */
+  .water-bar{padding:8px 12px;gap:6px}
+  .water-glasses{gap:3px}
+  .water-glass{width:22px;height:22px;font-size:10px}
+  .water-info{font-size:11px}
+
+  /* WEEK NAV mobile */
+  .week-nav{padding:10px 12px 0;gap:5px}
+  .day-tab{padding:6px 12px;font-size:12px}
+
+  /* MAIN mobile */
+  .main{padding:12px 14px}
+
+  /* STATS GRID mobile */
+  .stats-grid{grid-template-columns:repeat(3,1fr);gap:6px}
+  .stat-card{padding:10px 10px}
+  .stat-val{font-size:20px}
+  .stat-lbl{font-size:9px}
+
+  /* WEIGHT mobile */
+  .weight-row{gap:6px}
+  .weight-input-wrap{min-width:0;padding:8px 12px}
+  .weight-input{font-size:16px;width:70px}
+
+  /* DAY HERO mobile */
+  .day-hero{padding:14px 16px}
+  .day-hero-left h2{font-size:24px}
+
+  /* CORPO */
   .corpo-top{grid-template-columns:1fr}
   .corpo-charts{grid-template-columns:1fr}
   .medidas-grid{grid-template-columns:1fr 1fr}
+
+  /* ROUND TIMER mobile */
+  .rt-settings{grid-template-columns:1fr 1fr 1fr}
+  .rt-time{font-size:56px}
+
+  /* ACHIEVEMENTS mobile */
+  .achievements-row{gap:6px}
+  .achievement{padding:8px 10px}
+
+  /* TOAST mobile */
+  .toast{bottom:16px;right:12px;left:12px;max-width:none}
+
+  /* REMINDER mobile */
+  .reminder-bar{padding:8px 12px;gap:8px}
+  .reminder-text{font-size:12px}
+  .reminder-sub{font-size:11px}
 }
 
 </style>
